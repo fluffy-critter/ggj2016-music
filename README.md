@@ -26,21 +26,28 @@ Specific requests will go into the `requests/` directory. I will also have a dir
 
 I will do my best to make music that is good enough for a game jam game. :)
 
-In return I expect the following:
+In return I expect the following, in addition to the [Global Game Jam code of conduct](http://globalgamejam.org/code-conduct-legal-policies):
 
 * Content in `requests/`:
 ** The requester may use the music as part of their GGJ package as long as I receive a credit on the game and am listed on the game's team.
-** Others may use the music as well as long as they contact the original requesting team for permission first
+** Others may use the music as well as long as they contact the original requesting team for permission first.
 * Content in `general/`:
 ** Anyone may use the music as part of their GGJ package as long as I receive a credit on the game and am listed on the game's team.
 
 ### Credit requirements
 
-* My GGJ username is [fluffy](http://globalgamejam.org/users/fluffy)
+* My GGJ username (for adding me to the game team) is [fluffy](http://globalgamejam.org/users/fluffy).
 * Within the game and its supplemental text (README, website, etc.) I'd appreciate being credited as "j. shagam" with a link to at least one of http://metronomic.tk/, http://sockpuppet.us/, or http://beesbuzz.biz/ (but more than one would be even better).
 
 ## Beyond GGJ 2016
 
-All music will be available under Creative Commons [BY-NC](http://creativecommons.org/licenses/by-nc/4.0/). For commercially-available games, please get in touch with me to discuss licensing.
+All music published here is available under Creative Commons [BY-NC](http://creativecommons.org/licenses/by-nc/4.0/). For commercially-available games, please get in touch with me to discuss licensing.
 
 Also, please keep me in mind if you ever have an indie game that you want music and/or sounds for!
+
+## Contacting me
+
+* GitHub: [plaidfluff](https://github.com/plaidfluff)
+* Twitter: [fluffy](http://twitter.com/fluffy)
+* Tumblr: [fluffy-critter](http://tumblr.beesbuzz.biz), [realfakesockpuppet](http://blog.sockpuppet.us/)
+* Email: fluffy at bees buzz dot biz
