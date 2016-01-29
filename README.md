@@ -4,7 +4,7 @@
 
 I'm a software engineer (primarily graphics) working in interactive media, but I love making music in my spare time.
 
-I have a "band," [Sockpuppet](http://sockpuppet.us/). I also have a [portfolio of audio production](http://metronomic.tk/), and a site for [my crappy non-game non-music art](http://beesbuzz.biz/) (mostly comics and photography).
+I have a "band" called [Sockpuppet](http://sockpuppet.us/), which is really just me pretending to be a bunch of people (thus [the name](https://en.wikipedia.org/wiki/Sockpuppet_(Internet))). I also have a [portfolio of audio works](http://metronomic.tk/), and a [personal site](http://beesbuzz.biz/) (mostly comics and photography).
 
 For GGJ 2015, I did music for [Project Imperative](http://globalgamejam.org/2015/games/project-imperative), and ambient loops for [TaleSpinner](http://globalgamejam.org/2015/games/talespinner). I eventually turned the Project Imperative soundtrack into the [opening track](http://music.sockpuppet.us/track/little-bouncing-ball) of my 2015 album, [Refactor](http://music.sockpuppet.us/album/refactor). Meanwhile, TaleSpinner's ambient loops informed the sound design on the Sockpuppet website.
 
@@ -42,3 +42,5 @@ In return I expect the following:
 ## Beyond GGJ 2016
 
 All music will be available under Creative Commons [BY-NC](http://creativecommons.org/licenses/by-nc/4.0/). For commercially-available games, please get in touch with me to discuss licensing.
+
+Also, please keep me in mind if you ever have an indie game that you want music and/or sounds for!
