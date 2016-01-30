@@ -37,7 +37,7 @@ In return I expect the following, in addition to the [Global Game Jam code of co
 
 ### Credit requirements
 
-* My GGJ username (for adding me to the game team) is [fluffy](http://globalgamejam.org/users/fluffy).
+* My GGJ username (for adding me to the game's jam page) is [fluffy](http://globalgamejam.org/users/fluffy).
 * Within the game and its supplemental text (README, website, etc.) I'd appreciate being credited as "j. shagam" with a link to at least one of http://metronomic.tk/, http://sockpuppet.us/, or http://beesbuzz.biz/ (but more than one would be even better).
 
 ## Beyond GGJ 2016
