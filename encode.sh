@@ -17,9 +17,9 @@ cat << EOF
 <title>Global Game Jam 2016 music</title>
 
 <style>
-table {border-collapse: collapse; }
-table td { border: solid black 1px; }
-table th { border: solid black 3px; }
+table {border-collapse: collapse; border: solid black 3px; }
+table td { border: solid black 1px; padding: 0px 1ex; }
+table th { border: solid black 3px; backgorund: #ccc; }
 </style>
 
 <!-- jQuery -->
