@@ -12,7 +12,9 @@ A lot of my content is also Creative Commons-licensed; for the most part I use [
 
 ## What I'm doing in GGJ 2016
 
-I would like to make music and sfx for as many games as I am able to. If you would like to request me to make a work for your project, please [open an issue](https://github.com/plaidfluff/ggj2016-music/issues/new) and tell me the following:
+I would like to make music and sfx for as many games as I am able to. All the music I am making for this jam is being posted to this github repo. You can also listen/download directly at http://ggj.metronomic.tk/
+
+If you would like to request me to make a work for your project, please [open an issue](https://github.com/plaidfluff/ggj2016-music/issues/new) and tell me the following:
 
 1. The name of your game
 2. A link to the game's team page
