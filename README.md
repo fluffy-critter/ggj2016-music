@@ -20,7 +20,7 @@ I would like to make music and sfx for as many games as I am able to. If you wou
 
 As I start working on a project I will assign the issue to myself and hopefully keep you posted, and we can use the issue itself as a means of communicating on things. If it's definitely not something I can handle I'll resolve the issue WONTFIX. I will push the actual audio into this repository.
 
-Specific requests will go into the `requests/` directory. I will also have a directory of generally-available stuff, `general/`, which is a free for all (stuff that I'm just making for the heck of it to fill in time between requests).
+Specific requests will go into the `requests/` directory. I will also have a directory of generally-available stuff, `general/`, which is a free for all (stuff that I'm just making for the heck of it to fill in time between requests, and I'll probably dig up some old unused stuff that might be good for games as well).
 
 ## What to expect
 
@@ -50,4 +50,5 @@ Also, please keep me in mind if you ever have an indie game that you want music 
 * GitHub: [plaidfluff](https://github.com/plaidfluff)
 * Twitter: [fluffy](http://twitter.com/fluffy)
 * Tumblr: [fluffy-critter](http://tumblr.beesbuzz.biz), [realfakesockpuppet](http://blog.sockpuppet.us/)
+* Patreon: [fluffy](http://patreon.com/fluffy)
 * Email: fluffy at bees buzz dot biz
