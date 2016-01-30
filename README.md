@@ -15,8 +15,9 @@ A lot of my content is also Creative Commons-licensed; for the most part I use [
 I would like to make music and sfx for as many games as I am able to. If you would like to request me to make a work for your project, please [open an issue](https://github.com/plaidfluff/ggj2016-music/issues/new) and tell me the following:
 
 1. The name of your game
-2. A brief description of the game and what sort of music you want (if you have a specific thing in mind)
-3. Any special requests (file format, separate layers for interactive mix, etc.)
+2. A link to the game's team page
+3. A brief description of the game and what sort of music you want (if you have a specific thing in mind)
+4. Any special requests (file format, separate layers for interactive mix, etc.)
 
 As I start working on a project I will assign the issue to myself and hopefully keep you posted, and we can use the issue itself as a means of communicating on things. If it's definitely not something I can handle I'll resolve the issue WONTFIX. I will push the actual audio into this repository.
 
@@ -29,10 +30,10 @@ I will do my best to make music that is good enough for a game jam game. :)
 In return I expect the following, in addition to the [Global Game Jam code of conduct](http://globalgamejam.org/code-conduct-legal-policies):
 
 * Content in `requests/`:
-    * The requester may use the music as part of their GGJ package as long as I receive a credit on the game and am listed on the game's team.
+    * The requester may use the music as part of their GGJ package as long as I receive a credit on the game.
     * Others may use the music as well as long as they contact the original requesting team for permission first.
 * Content in `general/`:
-    * Anyone may use the music as part of their GGJ package as long as I receive a credit on the game and am listed on the game's team.
+    * Anyone may use the music as part of their GGJ package as long as I receive a credit on the game.
 
 ### Credit requirements
 
