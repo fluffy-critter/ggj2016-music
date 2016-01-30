@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for i in "$@"; do
+find . -name '*.wav' | while read i ; do
     BASE="$(dirname "$i")/$(basename "$i" .wav)"
     TITLE="$(basename "$i")"
 
