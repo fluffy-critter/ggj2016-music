@@ -6,7 +6,7 @@ find . -name '*.wav' | while read i ; do
 
     [ "$i" -nt "$BASE.mp3" ] && lame -b 32 -V 5 -q 5 -m j "$i" "$BASE.mp3" --tt "$TITLE" --ta "j. shagam @ metronomic.tk" --tl "Global Game Jam 2016" --ty 2016
     [ "$i" -nt "$BASE.ogg" ] && oggenc "$i" -o "$BASE.ogg" -t "$TITLE" -a "j. shagam @ metronomic.tk"
-    [ "$i" -nt "$BASE.flac" ] && flac "$i" -o "$BASE.flac"
+    [ "$i" -nt "$BASE.flac" ] && flac "$i" -fo "$BASE.flac"
 done
 
 (
@@ -45,7 +45,7 @@ table th { border: solid black 3px; backgorund: #ccc; }
 <body>
     <p>Here is the music I've made for this year's Global Game Jam (2016), most recent first. Please see <a href="https://github.com/plaidfluff/ggj2016-music">my GitHub repo</a> for more information.</p>
 <table>
-<tr><th>Folder</th><th>Name</th><th>mp3</th><th>ogg</th><th>flac</th><th>Updated</th></tr>
+<tr><th>Folder</th><th>Name</th><th>Duration</th><th>mp3</th><th>ogg</th><th>flac</th><th>Updated</th></tr>
 EOF
 
 find . -type f -name '*.mp3' | while read mp3 ; do
@@ -59,11 +59,12 @@ done | sort -nr | while read mtime mp3 ; do
     printf '<tr>
     <td>%s</td>
     <td>%s</td>
+    <td>%s</td>
     <td><a href="%s">mp3</a></td>
     <td><a href="%s.ogg">ogg</a></td>
     <td><a href="%s.flac">flac</a></td>
     <td>%s</td>
-    </tr>' "$dir" "$basename" "$mp3" "$pathpart" "$pathpart" "$fmtime"
+    </tr>' "$dir" "$basename" "$(soxi -d "$mp3")" "$mp3" "$pathpart" "$pathpart" "$fmtime"
 done
 printf '</table>'
 
