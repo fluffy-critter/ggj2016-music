@@ -48,23 +48,23 @@ table th { border: solid black 3px; backgorund: #ccc; }
 <tr><th>Folder</th><th>Name</th><th>Duration</th><th>mp3</th><th>ogg</th><th>flac</th><th>Updated</th></tr>
 EOF
 
-find . -type f -name '*.mp3' | while read mp3 ; do
-    printf '%d %s\n' $(stat -f %m "$mp3") "$mp3"
-done | sort -nr | while read mtime mp3 ; do
-    echo mtime=$mtime mp3=$mp3 1>&2
-    dir="$(dirname "$mp3" | cut -f2- -d/)"
-    basename="$(basename "$mp3" .mp3)"
-    pathpart="$(dirname "$mp3")/$basename"
-    fmtime="$(stat -t "%Y-%m-%d %H:%M" -f %Sm "$mp3")"
+find . -type f -name '*.wav' | while read wav ; do
+    printf '%d %s\n' $(stat -f %m "$wav") "$wav"
+done | sort -nr | while read mtime wav ; do
+    echo mtime=$mtime wav=$wav 1>&2
+    dir="$(dirname "$wav" | cut -f2- -d/)"
+    basename="$(basename "$wav" .wav)"
+    pathpart="$(dirname "$wav")/$basename"
+    fmtime="$(stat -t "%Y-%m-%d %H:%M" -f %Sm "$wav")"
     printf '<tr>
     <td>%s</td>
     <td>%s</td>
     <td>%s</td>
-    <td><a href="%s">mp3</a></td>
+    <td><a href="%s.mp3">mp3</a></td>
     <td><a href="%s.ogg">ogg</a></td>
     <td><a href="%s.flac">flac</a></td>
     <td>%s</td>
-    </tr>' "$dir" "$basename" "$(soxi -d "$mp3")" "$mp3" "$pathpart" "$pathpart" "$fmtime"
+    </tr>' "$dir" "$basename" "$(soxi -d "$wav")" "$pathpart" "$pathpart" "$pathpart" "$fmtime"
 done
 printf '</table>'
 
