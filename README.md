@@ -29,10 +29,10 @@ I will do my best to make music that is good enough for a game jam game. :)
 In return I expect the following, in addition to the [Global Game Jam code of conduct](http://globalgamejam.org/code-conduct-legal-policies):
 
 * Content in `requests/`:
-** The requester may use the music as part of their GGJ package as long as I receive a credit on the game and am listed on the game's team.
-** Others may use the music as well as long as they contact the original requesting team for permission first.
+    * The requester may use the music as part of their GGJ package as long as I receive a credit on the game and am listed on the game's team.
+    * Others may use the music as well as long as they contact the original requesting team for permission first.
 * Content in `general/`:
-** Anyone may use the music as part of their GGJ package as long as I receive a credit on the game and am listed on the game's team.
+    * Anyone may use the music as part of their GGJ package as long as I receive a credit on the game and am listed on the game's team.
 
 ### Credit requirements
 
