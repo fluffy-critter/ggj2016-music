@@ -37,7 +37,7 @@ div.pad { height: 5em; }
       var jpjb = new jPlayerJukebox({
          'jukeboxOptions': {
             autoAdvance: false,
-            position: "fixed-t"
+            position: "fixed-b"
          }
       });
    });
