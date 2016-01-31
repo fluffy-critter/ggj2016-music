@@ -23,22 +23,19 @@ table th { border: solid black 3px; background: #ccc; }
 </style>
 
 <!-- jQuery -->
-<script src="js/jquery-1.11.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-<!-- jPlayer -->
-<link type="text/css" href="js/jplayer/skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" />
-<script type="text/javascript" src="js/jplayer/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="js/jplayer/add-on/jplayer.playlist.min.js"></script>
-<script type="text/javascript" src="js/jplayer/add-on/jplayer.jukebox.min.js"></script>
+<!-- jPlayer Jukebox add-on -->
+<link type="text/css" href="//gyrocode.github.io/jplayer-jukebox/0.6.0/skin/uno/jplayer.uno.min.css" rel="stylesheet" />
+<script type="text/javascript" src="//gyrocode.github.io/jplayer-jukebox/0.6.0/jplayer.jukebox.bundle.min.js"></script>
 
 <script type="text/javascript">
-   // Initialize jPlayerJukebox
-   jQuery(document).ready(function(){
+   \$(document).ready(function(){
+      // Initialize jPlayerJukebox
       var jpjb = new jPlayerJukebox({
-        swfPath: 'js/jplayer',
-        jukeboxOptions: {
-          autoAdvance: false,
-        },
+         'jukeboxOptions': {
+            autoAdvance: false,
+         }
       });
    });
 </script>
