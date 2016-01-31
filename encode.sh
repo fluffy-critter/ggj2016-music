@@ -20,6 +20,8 @@ cat << EOF
 table {border-collapse: collapse; border: solid black 3px; }
 table td { border: solid black 1px; padding: 0px 1ex; }
 table th { border: solid black 3px; background: #ccc; }
+
+div.pad { height: 5em; }
 </style>
 
 <!-- jQuery -->
@@ -35,6 +37,7 @@ table th { border: solid black 3px; background: #ccc; }
       var jpjb = new jPlayerJukebox({
          'jukeboxOptions': {
             autoAdvance: false,
+            position: "fixed-t"
          }
       });
    });
@@ -70,6 +73,9 @@ printf '</table>'
 
 cat << EOF
 </ul>
+
+<div class="pad">&nbsp;</div>
+
 </body></html>
 EOF
 ) > index.html
