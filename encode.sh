@@ -35,7 +35,10 @@ table th { border: solid black 3px; background: #ccc; }
    // Initialize jPlayerJukebox
    jQuery(document).ready(function(){
       var jpjb = new jPlayerJukebox({
-         swfPath: 'js/jplayer'
+        swfPath: 'js/jplayer',
+        jukeboxOptions: {
+          autoAdvance: false,
+        },
       });
    });
 </script>
