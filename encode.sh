@@ -19,7 +19,7 @@ cat << EOF
 <style>
 table {border-collapse: collapse; border: solid black 3px; }
 table td { border: solid black 1px; padding: 0px 1ex; }
-table th { border: solid black 3px; backgorund: #ccc; }
+table th { border: solid black 3px; background: #ccc; }
 </style>
 
 <!-- jQuery -->
